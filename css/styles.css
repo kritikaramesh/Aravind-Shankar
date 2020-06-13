@@ -143,7 +143,7 @@ img {
 
 /* Mobile View */
 
-@media (max-width: 501px) {
+@media (max-width: 865px) {
   .profile-picture {
     position: relative;
     left: 13%;
