@@ -52,9 +52,7 @@ img {
 .profile-picture {
   position: absolute;
   left: 25%;
-  top: auto;
   width: 80%;
-  border-radius: 250px;
 }
 
 .top-left {
@@ -143,11 +141,10 @@ img {
 
 /* Mobile View */
 
-@media (max-width: 865px) {
+@media (max-width: 1028px) {
   .profile-picture {
     position: relative;
-    left: 13%;
-    top: 15%;
+    width: 50%;
   }
 
   #contact-heading{
