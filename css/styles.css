@@ -1,0 +1,158 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Allerta', sans-serif;
+  color: #f5eded;
+  text-align: center;
+}
+
+/* Navbar */
+
+.navbar {
+  background-color: #000000;
+  padding: 0 0 0 2rem;
+  opacity: 0.5;
+}
+
+.navbar-brand {
+  font-size: 40px;
+  font-family: 'Alex Brush', cursive;
+  font-weight: 900;
+}
+
+.nav-item {
+  padding: 0 16px;
+}
+
+.nav-link {
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+/* Headings */
+
+h2,h3,h4,h5,h6{
+  color: #d72323;
+  line-height: 1.5;
+}
+
+#contact-heading{
+  color: #f5eded;
+  font-size: 12px;
+  padding-bottom: 3%;
+}
+
+/* Image */
+
+img {
+  width: auto;
+  height: auto;
+}
+
+.profile-picture {
+  position: absolute;
+  left: 25%;
+  top: auto;
+  width: 80%;
+  border-radius: 250px;
+}
+
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+/* Video */
+
+.video-control{
+  max-width:100%;height:auto;padding:10%;
+}
+
+/* Paragraph */
+
+.para {
+  padding: 10px 0 30px;
+  width: 40%;
+  margin: auto;
+  line-height: 1.5;
+}
+
+/* Icon */
+
+.link {
+  color: white;
+}
+
+.link:hover {
+  color: #FFFFFF;
+}
+
+.icon-space {
+  margin: 20px 5px;
+}
+
+/* Sections */
+
+#intro {
+  font-size: 4rem;
+  font-weight: 900;
+  background-color: #272121;
+  padding: 15% 7%;
+  text-align: left;
+}
+
+#carousel .container-fluid {
+  padding: 7%;
+}
+
+#carousel {
+  background-color: #d72323;
+  padding: 8% 2% 3%;
+}
+
+#projects {
+  background-color: #3e3636;
+  padding: 7%;
+}
+
+#about-me {
+  background-color: #3e3636;
+}
+
+#about-me .container-fluid {
+  padding: 2% 7%;
+}
+
+#contact {
+  background-color: #000000;
+}
+
+#contact .container-fluid {
+  padding: 2% 7% 1%;
+}
+
+#footer {
+  padding: 20px;
+  background-color: #000000;
+}
+
+#copyright {
+  font-size: 10px;
+}
+
+/* Mobile View */
+
+@media (max-width: 501px) {
+  .profile-picture {
+    position: relative;
+    left: 13%;
+    top: 15%;
+  }
+
+  #contact-heading{
+    width: 50%;
+    margin: auto;
+    font-size: 14px;
+  }
+}
