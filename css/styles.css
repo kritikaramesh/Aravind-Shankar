@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Allerta', sans-serif;
-  color: #f5eded;
+  color: #ffffff;
   text-align: center;
 }
 
@@ -32,12 +32,11 @@ body {
 /* Headings */
 
 h2,h3,h4,h5,h6{
-  color: #d72323;
   line-height: 1.5;
+  color: #333333;
 }
 
 #contact-heading{
-  color: #f5eded;
   font-size: 12px;
   padding-bottom: 3%;
 }
@@ -52,7 +51,9 @@ img {
 .profile-picture {
   position: absolute;
   left: 25%;
+  top: auto;
   width: 80%;
+  border-radius: 250px;
 }
 
 .top-left {
@@ -79,11 +80,11 @@ img {
 /* Icon */
 
 .link {
-  color: white;
+  color: #333333;
 }
 
 .link:hover {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .icon-space {
@@ -95,7 +96,7 @@ img {
 #intro {
   font-size: 4rem;
   font-weight: 900;
-  background-color: #272121;
+  background-color: #706c61;
   padding: 15% 7%;
   text-align: left;
 }
@@ -105,17 +106,19 @@ img {
 }
 
 #carousel {
-  background-color: #d72323;
+  background-color: #e1f4f3;
   padding: 8% 2% 3%;
+  color: #333333;
 }
 
 #projects {
-  background-color: #3e3636;
+  background-color: #ffffff;
   padding: 7%;
 }
 
 #about-me {
-  background-color: #3e3636;
+  background-color: #e1f4f3;
+  color: #333333;
 }
 
 #about-me .container-fluid {
@@ -123,7 +126,7 @@ img {
 }
 
 #contact {
-  background-color: #000000;
+  background-color: #706c61;
 }
 
 #contact .container-fluid {
@@ -131,11 +134,8 @@ img {
 }
 
 #footer {
-  padding: 20px;
+  padding: 10px;
   background-color: #000000;
-}
-
-#copyright {
   font-size: 10px;
 }
 
@@ -145,6 +145,7 @@ img {
   .profile-picture {
     position: relative;
     width: 50%;
+
   }
 
   #contact-heading{
